@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pollinator</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="torch">Torch</string>
+    <string name="open_map">Map</string>
+    <string name="open_camera">Camera</string>
+    <string name="open_album">Album</string>
+    <string name="family">Family</string>
+    <string name="genus">Genus</string>
+    <string name="species">Species</string>
+    <string name="mark_button">Mark</string>
+    <string name="clear_button">Clear</string>
+    <string name="guess_image">Guess Image</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="next_button">Next</string>
+</resources>

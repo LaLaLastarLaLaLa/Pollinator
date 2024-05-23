@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/top_plant_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_function_switching"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/bottom_function_switching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/green">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bottom_button_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/open_map"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:textSize="17sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bottom_button_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/open_camera"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bottom_button_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/open_album"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout>
